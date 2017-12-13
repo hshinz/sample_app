@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>SampleApp</title>
+    <!-- <title>SampleApp</title> -->
+    <!-- # thay doi title: dung tu khoa yield :title -->
+    <title><%= yield :title %></title>
     <%= csrf_meta_tags %>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
