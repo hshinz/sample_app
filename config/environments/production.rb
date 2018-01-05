@@ -13,7 +13,7 @@ Rails.application.configure do
   # Full error reports are disabled and caching is turned on.
   config.consider_all_requests_local       = false
   config.action_controller.perform_caching = true
-  host = 'boiling-coast-46225.herokuapp.com'     # Cloud IDE
+  host = 'giangrbr.herokuapp.com'     # Cloud IDE
   config.action_mailer.default_url_options = { host: host, protocol: 'https' }
 
   # Attempt to read encrypted secrets from `config/secrets.yml.enc`.
@@ -104,7 +104,7 @@ Rails.application.configure do
   config.action_mailer.smtp_settings = {
     address:              'smtp.gmail.com',
     port:                 587,
-    domain:               'example.com',
+    domain:               'giangrbr.herokuapp.com',
     user_name:            ENV['EMAIL_USER'],
     password:             ENV['EMAIL_PASS'],
     authentication:       'plain',
