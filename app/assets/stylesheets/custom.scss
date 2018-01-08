@@ -1,9 +1,11 @@
-@import "bootstrap-sprockets";
+// @import "bootstrap-sprockets";
 @import "bootstrap";
 
 /* mixins, variables, etc. */
 
 $gray-medium-light: #eaeaea;
+$gray-light: #999;
+$gray-lighter: #eee;
 
 @mixin box_sizing {
   -moz-box-sizing:    border-box;
@@ -58,14 +60,14 @@ h1 {
   text-align: center;
 }
 
-h2 {
-  font-size: 1.2em;
-  letter-spacing: -1px;
-  margin-bottom: 30px;
-  text-align: center;
-  font-weight: normal;
-  color: #777;
-}
+// h2 {
+//   font-size: 1.2em;
+//   letter-spacing: -1px;
+//   margin-bottom: 30px;
+//   text-align: center;
+//   font-weight: normal;
+//   color: #777;
+// }
 
 p {
   font-size: 1.1em;
