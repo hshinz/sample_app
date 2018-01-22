@@ -24,6 +24,7 @@ class PostsController < ApplicationController
 		@post = Post.find_by id: params[:id]
 		@comments = @post.comments.order(created_at: :desc)
 		@comment = Comment.new
+		@like = Like.new
 	end
 
 	private
